@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>F1 Daily - By Mitchy Saint-Clair</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Favicon -->
+    <link href="img/logo.jpg" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,900&display=swap" rel="stylesheet">
+  
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid d-none d-lg-block">
+        <div class="row align-items-center bg-dark px-lg-5">
+            <div class="col-lg-9">
+                <nav class="navbar navbar-expand-sm bg-dark p-0">
+                    <ul class="navbar-nav ml-n2">
+                        <li class="nav-item border-right border-secondary">
+                            <a class="nav-link text-body small" href="#">By Mitchy Saint-Clair</a>
+                        </li>
+                        <li class="nav-item border-right border-secondary">
+                            <a class="nav-link text-body small" href="https://x.com/michxsaintc" target="_blank" rel="noopener noreferrer" class="dropdown-item">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-lg-3 text-right d-none d-md-block">
+                <nav class="navbar navbar-expand-sm bg-dark p-0">
+                    <ul class="navbar-nav ml-auto mr-n2">
+                        <li class="nav-item">
+                            <a class="nav-link text-body" href="https://t.me/mztchy" target="_blank" rel="noopener noreferrer" class="dropdown-item"><small class="fab fa-telegram"></small></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-body" href="https://x.com/michxsaintc" target="_blank" rel="noopener noreferrer" class="dropdown-item"><small class="fab fa-twitter"></small></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-body" href="https://open.spotify.com/playlist/17L5WQvd0UKJAyFT4dXROn?si=xIVH3MdiSBa_S1JytDRcqA&pi=yqER7e1RRwmRG" target="_blank" rel="noopener noreferrer" class="dropdown-item"><small class="fab fa-spotify"></small></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="row align-items-center py-3 px-lg-5 justify-content-center" style="background-color: #f3ebe3;">
+    <div class="col-auto text-center">
+        <a href="index.html">
+            <img class="img-fluid" src="img/logo.jpg" alt="F1 Daily Logo" style="width: 150px;">
+        </a>
+    </div>
+</div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-2 py-lg-0 px-lg-5">
+       <a href="index.html" class="navbar-brand d-block d-lg-none">
+    <h1 class="m-0 display-4 text-uppercase text-primary">F1<span class="text-white font-weight-normal">Daily</span></h1>
+</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between px-0 px-lg-3" id="navbarCollapse">
+            
+            <div class="navbar-nav mr-auto py-0">
+                <a href="index.html" class="nav-item nav-link active">Início</a>
+                <a href="posts.html" class="nav-item nav-link">Posts</a>
+                <a href="https://saintclairaura.carrd.co/" target="_blank" rel="noopener noreferrer" class="nav-item nav-link">Sobre</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contato</a>
+                    <div class="dropdown-menu rounded-0 m-0">
+                        <a href="https://x.com/michxsaintc" target="_blank" rel="noopener noreferrer" class="dropdown-item">Twitter</a>
+                        <a href="t.me/mztchy" target="_blank" rel="noopener noreferrer" class="dropdown-item">Telegram Mitchy Saint-Clair</a>
+                        <a href="t.me/mitchyupdates" target="_blank" rel="noopener noreferrer" class="dropdown-item">Telegram Mitchy Updates</a>
+                        <a href="https://www.skysports.com/f1" target="_blank" rel="noopener noreferrer" class="dropdown-item">Sky Sports</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="input-group ml-auto d-none d-lg-flex" style="width: 100%; max-width: 300px;">
+                <input type="text" class="form-control border-0" placeholder="Buscar...">
+                <div class="input-group-append">
+                    <button class="input-group-text btn-custom-red text-dark border-0 px-3"><i
+                            class="fa fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+    <!-- Navbar End -->
+
+
+    <!-- Main News Slider Start -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-7 px-0">
+                <div class="owl-carousel main-carousel position-relative">
+                    <div class="position-relative overflow-hidden" style="height: 500px;">
+                        <img class="img-fluid h-100" src="img/news-800x500-1.jpg" style="object-fit: cover;">
+                        <div class="overlay">
+                            <div class="mb-2">
+                                <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
+                                    href="">Fórmula 1</a>
+                                <a class="text-white" href="">GP dos Estados Unidos</a>
+                            </div>
+                            <a class="h2 m-0 text-white text-uppercase font-weight-bold" href="https://www.skysports.com/f1/news/12433/13446909/united-states-gp-2025-dates-schedule-weather-uk-start-time-and-how-to-watch-sprint-weekend-or-stream-f1-austin-race-on-sky-sports" target="_blank" rel="noopener noreferrer">GP dos EUA: Confira os horários e como assistir à etapa de Austin...</a>
+                        </div>
+                    </div>
+                    <div class="position-relative overflow-hidden" style="height: 500px;">
+                        <img class="img-fluid h-100" src="img/news-800x500-2.jpg" style="object-fit: cover;">
+                        <div class="overlay">
+                            <div class="mb-2">
+                                <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
+                                    href="">Fórmula 1</a>
+                                    <a class="text-white" href="">Construtores</a>
+                            </div>
+                            <a class="h2 m-0 text-white text-uppercase font-weight-bold" href="https://www.skysports.com/f1/live-blog/12433/13442742/f1-singapore-gp-live-race-qualifying-practice-updates-results-stream-highlights-from-marina-bay-street-circuit" target="_blank" rel="noopener noreferrer">McLaren comemora o Campeonato de Construtores de 2025...</a>
+                        </div>
+                    </div>
+                    <div class="position-relative overflow-hidden" style="height: 500px;">
+                        <img class="img-fluid h-100" src="img/news-800x500-3.jpg" style="object-fit: cover;">
+                        <div class="overlay">
+                            <div class="mb-2">
+                                <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
+                                    href="">Fórmula 1</a>
+                                <a class="text-white" href="">Sprint no Texas</a>
+                            </div>
+                            <a class="h2 m-0 text-white text-uppercase font-weight-bold" href="https://www.skysports.com/f1/news/12526/13331965/f1-sprint-2025-schedule-points-format-explained-qualifying-race-and-venues-for-new-season" target="_blank" rel="noopener noreferrer">Sprint: calendário, pontos, formato dos resultados, classificação...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 px-0">
+                <div class="row mx-0">
+                    <div class="col-md-6 px-0">
+                        <div class="position-relative overflow-hidden" style="height: 250px;">
+                            <img class="img-fluid w-100 h-100" src="img/news-700x435-01.jpg" style="object-fit: cover;">
+                            <div class="overlay">
+                                <div class="mb-2">
+                                    <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
+                                        href="">Fórmula 1</a>
+                                    <a class="text-white" href=""><small>McLaren</small></a>
+                                </div>
+                                <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="https://www.skysports.com/f1/news/12433/13444948/lando-norris-oscar-piastri-singapore-gp-collision-has-changed-ground-rules-in-f1-title-battle-says-martin-brundle" target="_blank" rel="noopener noreferrer">Colisão entre Lando Norris e Oscar Piastri em Cingapura mudou...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 px-0">
+                        <div class="position-relative overflow-hidden" style="height: 250px;">
+                            <img class="img-fluid w-100 h-100" src="img/news-700x435-2.jpg" style="object-fit: cover;">
+                            <div class="overlay">
+                                <div class="mb-2">
+                                    <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
+                                        href="">Fórmula 1</a>
+                                    <a class="text-white" href=""><small>Paddock</small></a>
+                                </div>
+                                <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="https://www.skysports.com/f1/live-blog/12433/12466779/f1-news-rumours-and-gossip-formula-1-latest-updates-on-teams-driver-transfer-market-and-contracts" target="_blank" rel="noopener noreferrer">Hamilton rebate Alonso...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 px-0">
+                        <div class="position-relative overflow-hidden" style="height: 250px;">
+                            <img class="img-fluid w-100 h-100" src="img/news-700x435-3.jpg" style="object-fit: cover;">
+                            <div class="overlay">
+                                <div class="mb-2">
+                                    <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
+                                        href="">Fórmula 1</a>
+                                    <a class="text-white" href=""><small>Especial</small></a>
+                                </div>
+                                <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="">Piastri campeão em Interlagos?</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 px-0">
+                        <div class="position-relative overflow-hidden" style="height: 250px;">
+                            <img class="img-fluid w-100 h-100" src="img/news-700x435-4.jpg" style="object-fit: cover;">
+                            <div class="overlay">
+                                <div class="mb-2">
+                                    <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
+                                        href="">Fórmula 1</a>
+                                </div>
+                                <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="">Wolff 'desdenha' de Verstappen...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Main News Slider End -->
+
+
+    <!-- Breaking News Start -->
+    <div class="container-fluid bg-dark py-3 mb-3">
+        <div class="container">
+            <div class="row align-items-center bg-dark">
+                <div class="col-12">
+                    <div class="d-flex justify-content-between">
+                        <div class="text-white text-center font-weight-medium py-2" style="width: 170px; background-color: #d8261a;">NOVIDADE</div>
+                        <div class="owl-carousel tranding-carousel position-relative d-inline-flex align-items-center ml-3"
+                            style="width: calc(100% - 170px); padding-right: 90px;">
+                            <div class="text-truncate"><a class="text-white text-uppercase font-weight-semi-bold" href="https://www.skysports.com/f1/news/12526/13331965/f1-sprint-2025-schedule-points-format-explained-qualifying-race-and-venues-for-new-season" target="_blank" rel="noopener noreferrer">F1 Sprint 2025: calendário, pontos, formato dos resultados explicados, classificação, corrida e locais para a nova temporada</a></div>
+                            <div class="text-truncate"><a class="text-white text-uppercase font-weight-semi-bold" href="https://www.skysports.com/f1/news/12433/13446396/lewis-hamilton-ferrari-driver-issues-rallying-cry-after-dark-moments-during-singapore-gp-race-week" target="_blank" rel="noopener noreferrer">F1: Lewis Hamilton: piloto da Ferrari revela problema na semana da corrida do GP de Cingapura</a></div>
+                            <div class="text-truncate"><a class="text-white text-uppercase font-weight-semi-bold" href="">F1: Chefe da Alpine faz alerta sobre mudança de regras da F1</a></div>
+                            <div class="text-truncate"><a class="text-white text-uppercase font-weight-semi-bold" href="">F1: Após deixar F1, Latifi conclui MBA em faculdade de Londres</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breaking News End -->
+
+
+    <!-- Featured News Slider Start -->
+    <div class="container-fluid pt-5 mb-3">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="m-0 text-uppercase font-weight-bold">DIRETAMENTE DA SKY SPORTS</h4>
+            </div>
+            <div class="owl-carousel news-carousel carousel-item-4 position-relative">
+                <div class="position-relative overflow-hidden" style="height: 300px;">
+                    <img class="img-fluid h-100" src="img/news-700x435-1 russel.jpg" style="object-fit: cover;">
+                    <div class="overlay">
+                        <div class="mb-2">
+                            <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
+                                href="">Fórmula 1</a>
+                            <a class="text-white" href=""><small>SkySports</small></a>
+                        </div>
+                        <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="https://www.skysports.com/f1/news/12433/13447180/george-russell-has-mercedes-driver-become-f1s-next-best-driver-after-max-verstappen-amid-superb-2025-campaign" target="_blank" rel="noopener noreferrer">O piloto da Mercedes se tornou o próximo ...</a>
+                    </div>
+                </div>
+                <div class="position-relative overflow-hidden" style="height: 300px;">
+                    <img class="img-fluid h-100" src="img/news-700x435-2 horner.jpg" style="object-fit: cover;">
+                    <div class="overlay">
+                        <div class="mb-2">
+                            <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
+                                href="">Análise</a>
+                                <a class="text-white" href=""><small>SkySports</small></a>
+                        </div>
+                        <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="https://www.skysports.com/f1/news/12433/13450089/christian-horner-are-reports-linking-ferrari-to-former-red-bull-team-principal-realistic" target="_blank" rel="noopener noreferrer">É realista que Horner se junte a Ferrari?</a>
+                    </div>
+                </div>
+                <div class="position-relative overflow-hidden" style="height: 300px;">
+                    <img class="img-fluid h-100" src="img/news-700x435-3.jpg" style="object-fit: cover;">
+                    <div class="overlay">
+                        <div class="mb-2">
+                            <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
+                                href="">Fórmula 1</a>
+                            <a class="text-white" href=""><small>Especial</small></a>
+                        </div>
+                        <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="">Piastri campeão em Interlagos?</a>
+                    </div>
+                </div>
+                <div class="position-relative overflow-hidden" style="height: 300px;">
+                    <img class="img-fluid h-100" src="img/news-700x435-4 irlanda.jpg" style="object-fit: cover;">
+                    <div class="overlay">
+                        <div class="mb-2">
+                            <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
+                                href="">Fórmula 1</a>
+                            <a class="text-white" href=""><small>Mercado</small></a>
+                        </div>
+                        <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="https://www.skysports.com/f1/news/12433/13447038/alex-dunne-what-mclarens-release-of-and-red-bulls-interest-in-irish-star-means-for-f1s-driver-market" target="_blank" rel="noopener noreferrer">Alex Dunne, interesse da Red Bull...</a>
+                    </div>
+                </div>
+                <div class="position-relative overflow-hidden" style="height: 300px;">
+                    <img class="img-fluid h-100" src="img/news-700x435-5 naomi.jpg" style="object-fit: cover;">
+                    <div class="overlay">
+                        <div class="mb-2">
+                            <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
+                                href="">Off-track</a>
+                            <a class="text-white" href=""><small>Especial</small></a>
+                        </div>
+                        <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="">Lewis Hamilton inspirou Naomi Schiff...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Featured News Slider End -->
+
+
+    <!-- News With Sidebar Start -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="section-title">
+                                <h4 class="m-0 text-uppercase font-weight-bold">Últimas notícias</h4>
+                                <a class="text-secondary font-weight-medium text-decoration-none" href="">Ver todas</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="position-relative mb-3 h-100">
+                                <img class="img-fluid w-100" src="img/news-700x435-1.jpg" style="object-fit: cover;">
+                                <div class="bg-white border border-top-0 p-4">
+                                    <div class="mb-2">
+                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
+                                            href="">Fórmula 1</a>
+                                        <a class="text-body" href=""><small>Podcast</small></a>
+                                    </div>
+                                    <a class="h4 d-block mb-3 text-secondary text-uppercase font-weight-bold" href="https://www.skysports.com/f1/video/30998/13446667/mclaren-do-papaya-rules-create-their-own-issues" target="_blank" rel="noopener noreferrer">As 'Papaya Rules'...</a>
+                                    <p class="m-0">A equipe do F1 Daily discute as "Papaya Rules" da McLaren e se elas criam mais problemas do que melhoras</p>
+                                </div>
+                                <div class="d-flex justify-content-between bg-white border border-top-0 p-4">
+                                    <div class="d-flex align-items-center">
+                                        <img class="rounded-circle mr-2" src="img/user.jpg" width="25" height="25" alt="">
+                                        <small>Mitchy Saint-Clair</small>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <small class="ml-3"><i class="far fa-eye mr-2"></i>2.3k</small>
+                                        <small class="ml-3"><i class="far fa-comment mr-2"></i>53</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="position-relative mb-3 h-100">
+                                <img class="img-fluid w-100" src="img/news-700x435-5.jpg" style="object-fit: cover;">
+                                <div class="bg-white border border-top-0 p-4">
+                                    <div class="mb-2">
+                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
+                                            href="">Fórmula 1 Academy</a>
+                                        <a class="text-body" href=""><small>FIA</small></a>
+                                    </div>
+                                    <a class="h4 d-block mb-3 text-secondary text-uppercase font-weight-bold" href="">Susie Wolff mantém...</a>
+                                    <p class="m-0">Caso de 2023 da chefe da F1 Academy contra órgão regulador do esporte continua ativo</p>
+                                </div>
+                                <div class="d-flex justify-content-between bg-white border border-top-0 p-4">
+                                    <div class="d-flex align-items-center">
+                                        <img class="rounded-circle mr-2" src="img/user.jpg" width="25" height="25" alt="">
+                                        <small>Mitchy Saint-Clair</small>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <small class="ml-3"><i class="far fa-eye mr-2"></i>25k</small>
+                                        <small class="ml-3"><i class="far fa-comment mr-2"></i>121</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 mb-3">
+                            <a href=""><img class="img-fluid w-100" src="img/adv 1.gif" alt=""></a>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="position-relative mb-3 h-100">
+                                <img class="img-fluid w-100" src="img/news-700x435-3 pi.jpg" style="object-fit: cover;">
+                                <div class="bg-white border border-top-0 p-4">
+                                    <div class="mb-2">
+                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
+                                            href="">Fórmula 1</a>
+                                        <a class="text-body" href=""><small>GP dos EUA</small></a>
+                                    </div>
+                                    <a class="h4 d-block mb-0 text-secondary text-uppercase font-weight-bold" href="">Veja quais novatos participaram...</a>
+                                </div>
+                                <div class="d-flex justify-content-between bg-white border border-top-0 p-4">
+                                    <div class="d-flex align-items-center">
+                                        <img class="rounded-circle mr-2" src="img/user.jpg" width="25" height="25" alt="">
+                                        <small>Mitchy Saint-Clair</small>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <small class="ml-3"><i class="far fa-eye mr-2"></i>1.3k</small>
+                                        <small class="ml-3"><i class="far fa-comment mr-2"></i>26</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="position-relative mb-3">
+                                <img class="img-fluid w-100" src="img/news-700x435-1 casa.jpg" style="object-fit: cover;">
+                                <div class="bg-white border border-top-0 p-4">
+                                    <div class="mb-2">
+                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
+                                            href="">Stock Car</a>
+                                        <a class="text-body" href=""><small>Mercado</small></a>
+                                    </div>
+                                    <a class="h4 d-block mb-0 text-secondary text-uppercase font-weight-bold" href="">Gabriel Casagrande renova contrato...</a>
+                                </div>
+                                <div class="d-flex justify-content-between bg-white border border-top-0 p-4">
+                                    <div class="d-flex align-items-center">
+                                        <img class="rounded-circle mr-2" src="img/user 1.jpg" width="25" height="25" alt="">
+                                        <small>Natalie Dursh</small>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <small class="ml-3"><i class="far fa-eye mr-2"></i>659</small>
+                                        <small class="ml-3"><i class="far fa-comment mr-2"></i>17</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                                <img class="img-fluid" src="img/news-110x110-1.jpg" alt="">
+                                <div class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+                                    <div class="mb-2">
+                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Paddock</a>
+                                        <a class="text-body" href=""><small>Grosjean</small></a>
+                                    </div>
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold" href="https://www.skysports.com/f1/news/12433/13437596/romain-grosjean-drives-f1-car-for-first-time-since-miracle-escape-from-fireball-crash-at-2020-bahrain-gp-with-haas" target="_blank" rel="noopener noreferrer">Grosjean pilota um carro de F1 pela primeira vez desde...</a>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                                <img class="img-fluid" src="img/news-110x110-1.3.jpg" alt="">
+                                <div class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+                                    <div class="mb-2">
+                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Paddock</a>
+                                        <a class="text-body" href=""><small>Off track</small></a>
+                                    </div>
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold" href="https://www.skysports.com/f1/video/12870/13436227/azerbaijan-grand-prix-charles-leclerc-and-carlos-sainz-share-hilarious-unexpected-road-trip-home" target="_blank" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer">Leclerc e Sainz compartilham uma viagem...</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                                <img class="img-fluid" src="img/news-110x110-1.4.jpg">
+                                <div class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+                                    <div class="mb-2">
+                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Fórmula 1</a>
+                                        <a class="text-body" href=""><small>Perez</small></a>
+                                    </div>
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold" href="https://www.skysports.com/f1/news/12433/13418816/sergio-perez-cadillacs-new-2026-signing-explains-reasons-for-f1-return-and-has-say-on-red-bull-replacement-struggles" target="_blank" rel="noopener noreferrer">Perez revela motivação para voltar a F1 com a Cadillac...</a>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                                <img class="img-fluid" src="img/news-110x110-41.5.jpg" alt="">
+                                <div class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+                                    <div class="mb-2">
+                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Fórmula 1</a>
+                                        <a class="text-body" href=""><small>Mercado</small></a>
+                                    </div>
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold" href="https://www.skysports.com/f1/video/12040/13420666/dutch-gp-toto-wolff-confident-george-russell-will-extend-mercedes-contract" target="_blank" rel="noopener noreferrer">Toto Wolff está confiante na renovação...</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 mb-3">
+                            <a href=""><img class="img-fluid w-100" src="img/ads-728x90.png" alt=""></a>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="row news-lg mx-0 mb-3">
+                                <div class="col-md-6 h-100 px-0">
+                                    <img class="img-fluid h-100" src="img/news-700x435-51.jpg" style="object-fit: cover;">
+                                </div>
+                                <div class="col-md-6 d-flex flex-column border bg-white h-100 px-0">
+                                    <div class="mt-auto p-4">
+                                        <div class="mb-2">
+                                            <a class="badge badge-primary text-uppercase font-weight-semi-bold .truncate-text"
+                                                href="">GP dos EUA</a>
+                                            <a class="text-body" href=""><small>Scuderia Ferrari</small></a>
+                                        </div>
+                                        <a class="h4 d-block mb-3 text-secondary text-uppercase font-weight-bold" href="https://www.skysports.com/f1/news/12433/13449426/united-states-gp-what-can-ferrari-salvage-from-rest-of-2025-season-amid-renewed-pressure-from-mercedes-red-bull" target="_blank" rel="noopener noreferrer">O que a Ferrari pode salvar do resto da temporada...</a>
+                                        <p class="m-0">Uma avaliação de onde a Ferrari está, nas últimas corridas da temporada enquanto volta aos locais das vitórias mais recentes.</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between bg-white border-top mt-auto p-4">
+                                        <div class="d-flex align-items-center">
+                                            <img class="rounded-circle mr-2" src="img/user.jpg" width="25" height="25" alt="">
+                                            <small>Mitchy Saint Clair</small>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <small class="ml-3"><i class="far fa-eye mr-2"></i>648</small>
+                                            <small class="ml-3"><i class="far fa-comment mr-2"></i>44</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                        </div>
+                        <div class="col-lg-6">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <!-- Ads Start -->
+                    <div class="mb-3">
+                        <div class="bg-white text-center border border-top-0 p-3">
+                            <a href=""><img class="img-fluid" src="img/adv.gif" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- Ads End -->
+
+                    <!-- Popular News Start -->
+                    <div class="mb-3">
+                        <div class="section-title mb-0">
+                            <h4 class="m-0 text-uppercase font-weight-bold">Mais lidas</h4>
+                        </div>
+                        <div class="bg-white border border-top-0 p-3">
+                            <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                                <img class="img-fluid" src="img/news-110x110-1 horner.jpg" alt="">
+                                <div class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+                                    <div class="mb-2">
+                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Análise</a>
+                                        <a class="text-body" href=""><small>SkySports</small></a>
+                                    </div>
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold" href="https://www.skysports.com/f1/news/12433/13450089/christian-horner-are-reports-linking-ferrari-to-former-red-bull-team-principal-realistic" target="_blank" rel="noopener noreferrer">É realista que Horner se junte...</a>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                                <img class="img-fluid" src="img/news-110x110-2.jpg" alt="">
+                                <div class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+                                    <div class="mb-2">
+                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Fórmula 1</a>
+                                        <a class="text-body" href=""><small>Russell</small></a>
+                                    </div>
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold" href="https://www.skysports.com/f1/news/12433/13447180/george-russell-has-mercedes-driver-become-f1s-next-best-driver-after-max-verstappen-amid-superb-2025-campaign" target="_blank" rel="noopener noreferrer">O piloto da Mercedes se tornou...</a>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                                <img class="img-fluid" src="img/news-110x110-3.jpg" alt="">
+                                <div class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+                                    <div class="mb-2">
+                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Fórmula 1</a>
+                                        <a class="text-body" href=""><small>Piastri</small></a>
+                                    </div>
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold" href=https://www.skysports.com/f1/news/12433/13441176/oscar-piastri-compared-to-michael-schumacher-by-mclaren-boss-andrea-stella-in-vote-of-confidence-for-f1-championship-leader" target="_blank" rel="noopener noreferrer" class="dropdown-item">Stella defende Piastri 'Até Schumacher'...</a>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                                <img class="img-fluid" src="img/news-110x110-4.jpg" alt="">
+                                <div class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+                                    <div class="mb-2">
+                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Fórmula 1</a>
+                                        <a class="text-body" href=""><small>Williams</small></a>
+                                    </div>
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold" href="https://www.skysports.com/f1/news/12433/13436658/carlos-sainz-williams-driver-says-team-his-life-project-as-he-eyes-more-success-after-first-podium-at-azerbaijan-gp" target="_blank" rel="noopener noreferrer">Carlos Sainz diz que equipe é seu projeto...</a>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                                <img class="img-fluid" src="img/news-110x110-5.jpg" alt="">
+                                <div class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+                                    <div class="mb-2">
+                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Fórmula 1</a>
+                                        <a class="text-body" href=""><small>Verstappen</small></a>
+                                    </div>
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold" href="https://www.skysports.com/f1/video/30998/13442098/f1-explained-why-max-verstappens-title-fight-is-not-over" target="_blank" rel="noopener noreferrer">Por que Max Verstappen ainda...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Popular News End -->
+
+                    <!-- Newsletter Start -->
+                    <div class="mb-3">
+                        <div class="section-title mb-0">
+                            <h4 class="m-0 text-uppercase font-weight-bold">Newsletter</h4>
+                        </div>
+                        <div class="bg-white text-center border border-top-0 p-3">
+                            <p>Assine nossa newsletter e não perca nada! Receba todas as notícias diretamente no seu e-mail!</p>
+                            <div class="input-group mb-2" style="width: 100%;">
+                                <input type="text" class="form-control form-control-lg" placeholder="Seu email">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary font-weight-bold px-3">Inscrever-se</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Newsletter End -->
+
+                    <!-- Tags Start -->
+                    <div class="mb-3">
+                        <div class="section-title mb-0">
+                            <h4 class="m-0 text-uppercase font-weight-bold">Tags</h4>
+                        </div>
+                        <div class="bg-white border border-top-0 p-3">
+                            <div class="d-flex flex-wrap m-n1">
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">Fórmula 1</a>
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">Paddock</a>
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">Hamilton</a>
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">verstappen</a>                                </a>
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">Cadillac</a>
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">Alpine</a>
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">Ferrari</a>
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">Mercado</a>
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">Gran Prix</a>
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tags End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- News With Sidebar End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark pt-5 px-sm-3 px-md-5 mt-5">
+        <div class="row py-4 justify-content-center">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="mb-4 text-white text-uppercase font-weight-bold">Entre em contato!</h5>
+                <p class="font-weight-medium"><i class="fa fa-map-marker-alt mr-2"></i>7 Avenue des Champions, 98000 Monte Carlo, Monaco</p>
+                <p class="font-weight-medium"><i class="fa fa-phone-alt mr-2"></i>+377 60 123 4567</p>
+                <p class="font-weight-medium"><i class="fa fa-envelope mr-2"></i>contato@f1daily.mc</p>
+                <h6 class="mt-4 mb-3 text-white text-uppercase font-weight-bold">Nos siga nas redes</h6>
+                <div class="d-flex justify-content-start">
+                    <a class="btn btn-lg btn-secondary btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-lg btn-secondary btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-lg btn-secondary btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-lg btn-secondary btn-lg-square mr-2" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-lg btn-secondary btn-lg-square" href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="mb-4 text-white text-uppercase font-weight-bold">Categories</h5>
+                <div class="m-n1 d-flex flex-wrap justify-content-between">
+                    <a href="" class="btn btn-sm btn-secondary m-1">Fórmula 1</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Ferrari</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Mercado</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Drive to Survive</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">GP</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Mercedes</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">McLaren</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Piastri</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Hamilton</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Horner</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Lando</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Interlagos</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Grand Prix</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Fórmula 1 Academy</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Sainz</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">FIA</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">F1 Daily</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="mb-4 text-white text-uppercase font-weight-bold">Galeria</h5>
+                <div class="row">
+                    <div class="col-4 mb-3">
+                        <a href=""><img class="w-100" src="img/01.jpg" alt=""></a>
+                    </div>
+                    <div class="col-4 mb-3">
+                        <a href=""><img class="w-100" src="img/02.jpg" alt=""></a>
+                    </div>
+                    <div class="col-4 mb-3">
+                        <a href=""><img class="w-100" src="img/5.jpg" alt=""></a>
+                    </div>
+                    <div class="col-4 mb-3">
+                        <a href=""><img class="w-100" src="img/3.jpg" alt=""></a>
+                    </div>
+                    <div class="col-4 mb-3">
+                        <a href=""><img class="w-100" src="img/4.jpg" alt=""></a>
+                    </div>
+                    <div class="col-4 mb-3">
+                        <a href=""><img class="w-100" src="img/6.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-2 px-sm-3 px-md-5" style="background: #111111;">
+    <p class="m-0 text-center">&copy; 
+        <a href="#" style="color: #d8261a;">F1 Daily</a>. All Rights Reserved. 
+    </p>
+</div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
